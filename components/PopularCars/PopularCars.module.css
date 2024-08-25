@@ -1,0 +1,165 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.carsText {
+    font-family: Poppins;
+    font-size: 34.74px;
+    font-weight: 400;
+    line-height: 52.11px;
+    text-align: center;
+}
+
+.cars {
+    display: flex;
+}
+
+.carDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardetails {
+    border: 1px solid #D9D9D9;
+}
+
+.cardetails h1 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.carname p {
+    padding: 32px;
+    margin-top: -28px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: left;
+}
+
+.carspec ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carspec li {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 16.5px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.carbook {
+    display: flex;
+}
+
+.carprice {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.carbooknow button {
+    border-radius: 4px;
+    border: none;
+    background: #E21E26;
+    color: #FFFFFF;
+    padding: 6px 20px 6px 25px;
+    margin-top: 16px;
+    margin-left: 22px;
+}
+
+@media (max-width: 1024px) {
+    .cars {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carDiv {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .carDiv {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .carImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cardetails {
+        width: 100%;
+    }
+
+    .carspec ul {
+        flex-wrap: wrap;
+    }
+
+    .carspec li {
+        margin: 8px;
+    }
+
+    .carbook {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carprice {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .carbooknow button {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 470px) {
+    .carsText {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .cardetails h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .carname p {
+        padding: 16px;
+        font-size: 11px;
+        line-height: 16.5px;
+    }
+
+    .carspec li {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .carprice {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .carbooknow button {
+        padding: 4px 16px;
+        font-size: 12px;
+    }
+}

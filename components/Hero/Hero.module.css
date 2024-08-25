@@ -1,0 +1,347 @@
+.hero {
+    background: url('/images/hero.svg');
+    border: 0.5px solid #FFFFFF;
+    border-radius: 5px;
+    margin-left: 64px;
+    margin-right: 64px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 16px;
+    justify-content: left;
+}
+
+.pickup {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 56.74px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #111010;
+    color: #FFFFFF;
+}
+
+.pickup,
+.dropoff,
+.vehicletype {
+
+    padding-left: 16px;
+}
+
+.line {
+    background-color: #FFFFFF;
+    width: 114px;
+    margin-top: -24px;
+    margin-left: 16px;
+
+}
+
+.dropoff {
+    opacity: 0.7;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32.74px;
+    letter-spacing: -0.035em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vehicletype {
+    margin-top: 16px;
+
+}
+
+.vehicle {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    border: none;
+    padding: 8px;
+}
+
+.vehicle select {
+    background: inherit;
+    border: none;
+    color: #FFFFFF;
+}
+
+.vehicle option {
+    background-color: rgb(218, 84, 84);
+    border: none;
+    border-radius: 24px;
+}
+
+.sectionTwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    padding: 10px 24px;
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    margin-left: 16px;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.locationSelect {
+    border: none;
+    background: inherit;
+}
+
+.chooseDate {
+    display: flex;
+    flex-direction: row;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    border: none;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    padding: 4px;
+}
+
+.search {
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    border: none;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.lastSection {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 16px;
+    margin-top: 28px;
+}
+
+.downloadStore {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.downloadParagraph {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.quick {
+    background: inherit;
+    gap: 0px;
+    border-radius: 18px;
+    border: 1px solid #FFFFFF;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 48px;
+    padding: 0 76px 0 77px;
+}
+
+.sectionTwoHr {
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 0;
+    margin-left: 32px;
+}
+
+.responsiveBooking {
+    display: none;
+}
+
+
+
+@media (max-width:767px) {
+    .sectionOne {
+        display: none;
+    }
+
+    .sectionTwo {
+        display: none;
+    }
+    
+
+    .lastSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .downloadStore img {
+        margin-left: 24px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .downloadParagraph {
+        display: flex;
+        justify-content: center;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+    .responsiveBooking {
+        display: flex;
+        flex-direction: row;
+        margin-top: 56px;
+        margin-left: 72px;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsiveBookCar {
+
+        margin-top: 10px;
+        padding: 8px 44px 8px 44px;
+        gap: 8px;
+        border-radius: 4px;
+        opacity: 0px;
+        background: #E21E26;
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-align: center;
+
+
+    }
+
+    .responsiveQuickBook {
+        margin-top: 10px;
+        padding: 8px 44px 8px 44px;
+        gap: 8px;
+        border-radius: 4px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+
+        border: 1px solid #E21E26;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-align: center;
+        color: #E21E26;
+
+    }
+}
+
+
+
+@media (max-width:470px) {
+    .sectionOne {
+        display: none;
+    }
+
+    .sectionTwo {
+        display: none;
+    }
+    .hero {
+        background: url('/images/hero.svg');
+        border: 0.5px solid #FFFFFF;
+        border-radius: 5px;
+        margin-left: 56px;
+        margin-right: 64px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lastSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .downloadStore img {
+        margin-left: -15px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+
+    .downloadParagraph {
+        display: flex;
+        justify-content: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        text-wrap: wrap;
+    }
+
+    .responsiveBooking {
+        display: flex;
+        flex-direction: row;
+        margin-top: 56px;
+        /* margin-left: 72px; */
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsiveBookCar {
+
+        margin-top: 10px;
+        margin-left: -68px;
+        padding: 8px 44px 8px 44px;
+        gap: 8px;
+        border-radius: 4px;
+        opacity: 0px;
+        background: #E21E26;
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-align: center;
+
+
+    }
+
+    .responsiveQuickBook {
+        margin-top: 10px;
+        padding: 8px 44px 8px 44px;
+        gap: 8px;
+        border-radius: 4px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+
+        border: 1px solid #E21E26;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19.5px;
+        text-align: center;
+        color: #E21E26;
+
+    }
+}

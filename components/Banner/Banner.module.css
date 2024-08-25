@@ -1,0 +1,92 @@
+.bannerMain {
+    display: flex;
+    flex-direction: column;
+    padding-left: 144px;
+}
+
+.bannerContent {
+    background: url('/images/banner-car.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    font-family: Poppins;
+    font-size: 18.37px;
+    font-weight: 400;
+    line-height: 5.91px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 246px;
+    padding-bottom: 99px;
+}
+
+.bannerContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-left: -80px;
+    margin-bottom: 32px;
+}
+
+.bannerText p {
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.bannerContent p {
+    margin: 8px 8px;
+}
+
+.bannerButton {
+    border-radius: 32px;
+    opacity: 0px;
+    border: none;
+    background: #009046;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 15.22px;
+    font-weight: 600;
+    line-height: 19.25px;
+    text-align: center;
+}
+
+@media (max-width: 470px) {
+    .bannerMain {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .bannerContent {
+        background-position:  center;
+        padding-top: 180px;
+        padding-bottom: 50px;
+        padding-left: 32px;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .bannerText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bannerText p {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .bannerButton {
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+
+    .bannerContent p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}

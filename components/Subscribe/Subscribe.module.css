@@ -1,0 +1,211 @@
+.subscribeMain {
+    margin-left: 142px;
+    margin-right: 64px;
+    margin-top: 20px;
+}
+
+.subscription {
+    display: flex;
+}
+
+.subscribeHeading {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: left;
+    color: #000000;
+    padding-right: 32px;
+}
+
+.subscribeInput input {
+    border-radius: 5px;
+    border: none;
+    background: #F8F8F8;
+    padding: 16px;
+}
+
+.email {
+    margin-left: 20px;
+}
+
+.subscribeParagraph {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+}
+
+.subscribeButton {
+    border-radius: 5px;
+    border: none;
+    background: #E21E26;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 116px 8px 116px;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #E21E26;
+    padding-top: 48px;
+    padding-right: 60px;
+    padding-left: 32px;
+}
+
+.mobileNumber {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.mobileDetails input {
+    border: none;
+    width: 263px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 14px;
+    margin-bottom: 20px;
+}
+
+.mobileDetails button {
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    background: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.getin {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.mobileDownloadImage {
+    margin-left: 20px;
+}
+
+@media (max-width: 1024px) {
+    .subscribeMain {
+        margin-left: 64px;
+        margin-right: 32px;
+    }
+
+    .subscription {
+        flex-direction: column;
+    }
+
+    .mobile {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 767px) {
+    .subscribeMain {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .subscribeHeading {
+        font-size: 24px;
+        line-height: 36px;
+        padding-right: 0;
+    }
+
+    .subscribeInput input {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .email {
+        margin-left: 0;
+    }
+
+    .subscribeButton {
+        width: 100%;
+        padding: 8px 0;
+    }
+
+    .mobile {
+        flex-direction: column;
+        padding: 32px 16px;
+    }
+
+    .mobileImage {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .mobileDetails input {
+        width: 100%;
+    }
+
+    .mobileDetails button {
+        width: 100%;
+    }
+
+    .getin {
+        margin-top: 32px;
+    }
+
+    .mobileDownload {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+
+    .mobileDownloadImage {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 470px) {
+    .subscribeHeading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .subscribeParagraph {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .subscribeButton {
+        font-size: 14px;
+    }
+
+    .mobileNumber p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .mobileDetails button {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+
+    .getin {
+        font-size: 12px;
+    }
+}
