@@ -12,7 +12,7 @@ export default function Subscribe() {
                         <input type="text" placeholder="Name" />
                         <input type="email" placeholder="Email"  className={styles.email}/>
                         <div className={styles.subscribeParagraph}>
-                            <p>Don't miss out! enter your email and your name, then hit subscribe to unlock a world of
+                            <p>Don&apos;t miss out! enter your email and your name, then hit subscribe to unlock a world of
                                 special offers and details.</p>
                         </div>
                         <button className={styles.subscribeButton}>Subscribe</button>

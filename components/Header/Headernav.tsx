@@ -50,7 +50,7 @@ export default function Headernav() {
         <div className={styles.description}>
                 <p> Sunday Pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand Sales Counters | All
                     Rates
-                    inclusive of VAT. T&C’s apply | Follow us on Social Media for New Offers</p>
+                    inclusive of VAT. T&C&apos;s apply | Follow us on Social Media for New Offers</p>
             </div>
 
         </>
