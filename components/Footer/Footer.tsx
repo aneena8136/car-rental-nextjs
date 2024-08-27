@@ -7,6 +7,7 @@ export default function Footer() {
             <div className={styles.footerComponent}>
                 <div className={styles.footerMain}>
                     <div className={styles.companyInfo}>
+                        {/* footer logo */}
                         <ul>
                             <li><img className={styles.footerLogo} src="images/footer-logo.svg" alt="" /></li>
                             <div id="member">
@@ -14,6 +15,7 @@ export default function Footer() {
                             </div>
                         </ul>
                     </div>
+                    {/* footer main contents */}
                     <div className={styles.footerContent}>
                         <div className={styles.footerNav}>
                             <ul>
@@ -44,6 +46,7 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
+                    {/* footer social media */}
                     <div className={styles.followUs}>
                         <div className={styles.followText}>
                             <p> FOLLOW US ON</p>
@@ -87,6 +90,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
+                {/* company branches */}
                 <div className={styles.companies}>
                     <div className={styles.companyTitle}>
                         <p>Al Habtoor Companies</p>
@@ -102,6 +106,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
+                {/* copy right */}
                 <hr className={styles.footerHr} />
                 <div className={styles.copyRight}>
                     <p>© 2018 Diamondlease LLC - All Rights Reserved.</p>
@@ -109,6 +114,7 @@ export default function Footer() {
             </div>
             {/* // responsive footer part */}
             <div className={styles.responsiveFooter}>
+                {/* resposnive footer first part */}
                 <div className={styles.resFooter1}>
                     <div className={styles.row1}>
                         <div>
@@ -116,6 +122,7 @@ export default function Footer() {
                         </div>
                         <div className={styles.row1Icons}>
                             <ul>
+                                {/* social media icons */}
                                 <li><img src="images/responsive/res fb.svg" alt="" /></li>
                                 <li><img src="images/responsive/x res.svg" alt="" /></li>
                                 <li><img src="images/responsive/insta res.svg" alt="" /></li>
@@ -125,6 +132,7 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
+                    {/* main contents */}
                     <div className={styles.row2}>
                         <ul>
                             <li>Home</li>

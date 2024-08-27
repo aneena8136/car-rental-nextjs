@@ -3,8 +3,10 @@ import styles from './PopularCars.module.css'
 export default function PopularCars() {
     return (
         <div className={styles.mainDiv}>
+            {/* main heading */}
             <p className={styles.carsText}>Most popular cars</p>
             <div className={styles.cars}>
+                {/* first car and its details */}
                 <div className={styles.carDiv}>
                     <div className={styles.carImage}>
                         <img src="images/car1.svg" alt="" />
@@ -40,6 +42,7 @@ export default function PopularCars() {
 
                 </div>
                 <div>
+                    {/* second car and its details */}
                 <div className={styles.carDiv}>
                     <div className={styles.carImage}>
                         <img src="images/car2.svg" alt=""/>

@@ -4,7 +4,9 @@ import Image from 'next/image';
 
 export default function Subscribe() {
     return (
+
         <div className={styles.subscribeMain}>
+            {/* subscription part */}
             <div className={styles.subscription}>
                 <div className={styles.subscribeHeading}>
                     <p>Subscribe here for exclusive offers and updates!</p>
@@ -18,6 +20,7 @@ export default function Subscribe() {
                         <button className={styles.subscribeButton}>Subscribe</button>
                     </div>
                 </div>
+                {/* part with thw mobile image */}
                 <div className={styles.mobile}>
                     <div className={styles.mobileImage}>
                         <img src="images/mobile.svg" alt="" />
@@ -32,8 +35,6 @@ export default function Subscribe() {
                         <button>Get the link</button>
                         <p className={styles.getin}>Get in on</p>
                         <div className={styles.mobileDownload}>
-                            {/* <img src="images/appstore-white.svg" alt=""/> */}
-                            {/* <img src="images/playstore-white.svg" alt=""/> */}
                             <Image src={'/images/appstore-white.svg'} alt='' width={103} height={30}></Image>
                             <Image src={'/images/playstore-white.svg'} alt='' width={103} height={30} className={styles.mobileDownloadImage}></Image>
                         </div>

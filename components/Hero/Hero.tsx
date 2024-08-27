@@ -1,5 +1,4 @@
 import styles from './Hero.module.css'
-import BookingOptions from './Bookcar';
 export default function Hero() {
     return (
         <div className={styles.hero}>

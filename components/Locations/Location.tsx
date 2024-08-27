@@ -9,6 +9,7 @@ export default function Location(){
                 </div>
                 <div>
                     <ul>
+                        {/* different locations along with the icons */}
 
                         <li> <img src="images/locate-red.svg" alt=""/> </li>
                         <li>Dubai</li>

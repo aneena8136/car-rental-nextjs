@@ -1,5 +1,5 @@
 import styles from './Banner.module.css'
-
+// this is the car banner 
 export default function Banner() {
     return (
         <div className={styles.bannerMain}>

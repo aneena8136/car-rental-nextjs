@@ -47,6 +47,7 @@ export default function Headernav() {
             </div>
             
         </div>
+        {/* a small description in the navbar */}
         <div className={styles.description}>
                 <p> Sunday Pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand Sales Counters | All
                     Rates

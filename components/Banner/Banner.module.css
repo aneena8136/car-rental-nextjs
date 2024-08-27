@@ -53,6 +53,8 @@
     text-align: center;
 }
 
+/* responsive styles */
+
 @media (max-width: 470px) {
     .bannerMain {
         padding-left: 20px;

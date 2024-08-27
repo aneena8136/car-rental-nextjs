@@ -223,7 +223,7 @@
         padding: 8px 44px 8px 44px;
         gap: 8px;
         border-radius: 4px;
-        opacity: 0px;
+      
         background: #E21E26;
         color: #FFFFFF;
         font-family: Poppins;
@@ -241,7 +241,7 @@
         gap: 8px;
         border-radius: 4px;
         border: 1px 0px 0px 0px;
-        opacity: 0px;
+      
 
         border: 1px solid #E21E26;
         font-family: Poppins;

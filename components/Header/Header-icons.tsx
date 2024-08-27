@@ -3,6 +3,7 @@ import styles from './Headericons.module.css'
 export default function Headericons() {
     return (
         <main className={styles.headericons}>
+            {/* social media icons for header */}
             <div className={styles.media}>
                 <ul>
                     <li>

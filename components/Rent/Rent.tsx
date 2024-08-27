@@ -9,6 +9,7 @@ export default function Rent() {
             </div>
             <div className={styles.rentSteps}>
                 <div className={styles.step1}>
+                    {/* step 1 and its contents */}
                     <div className={styles.one}>
                         <p>01</p>
                     </div>
@@ -24,6 +25,7 @@ export default function Rent() {
 
                     </div>
                 </div>
+                {/* step 2 and its contents */}
                 <div className={styles.step1}>
                     <div className={styles.one}>
                         <p>02</p>
@@ -37,6 +39,7 @@ export default function Rent() {
                         </div>
                     </div>
                 </div>
+                {/* step 3 and its contents */}
                 <div className={styles.step1}>
                     <div className={styles.one}>
                         <p>03</p>
